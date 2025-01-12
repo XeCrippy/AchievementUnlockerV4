@@ -32,7 +32,8 @@ namespace AchievementUnlockerV4
                 console.LoadModule("HDD:\\cheesedick.xex");
 
                 uint achievementPtr = 0x3A168860;
-                uint pOverlapped = achievementPtr - 0x20;
+                uint pOverlapped = 0x3A168840;
+                uint pUserBuffer = 0x3A168EA0;
                 uint numAchievements = 200;
                 ulong[] achievements = new ulong[numAchievements];
 
@@ -43,7 +44,7 @@ namespace AchievementUnlockerV4
 
                 console.WriteUInt64(achievementPtr, achievements);
 
-                console.CallVoid(0x91E02258, numAchievements, 0x3A168860, 0x3A168840, 0x3A168EA0);
+                console.CallVoid(0x91E02258, numAchievements, achievementPtr, pOverlapped, pUserBuffer);
             }
             catch (Exception ex)
             {
