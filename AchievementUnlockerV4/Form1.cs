@@ -29,7 +29,7 @@ namespace AchievementUnlockerV4
                 string remoteName = "HDD:\\Cache\\cheesedick.xex";
                 File.WriteAllBytes(localName, file);
                 console.SendFile(localName, remoteName);
-                console.LoadModule("HDD:\\cheesedick.xex");
+                console.LoadModule("HDD:\\Cache\\cheesedick.xex");
 
                 uint achievementPtr = 0x3A168860;
                 uint pOverlapped = 0x3A168840;
