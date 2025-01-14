@@ -1,6 +1,9 @@
 # RGH Achievement, Avatar Award, and Gamer Picture Unlocker
 
-# DO NOT USE. CURRENTLY CAUSING PROFILES TO CORRUPT. IT DOES NOT HAPPEN USING JUST THE PLUGIN BUT WHEN CALLING IT FROM THE C# TOOL SOMETHING IS NOT BEING HANDLED PROPERLY 
+# DO NOT USE. CURRENTLY CAUSING PROFILES TO CORRUPT. IT DOES NOT HAPPEN USING JUST THE PLUGIN BUT WHEN CALLING IT FROM THE C# TOOL SOMETHING IS NOT BEING HANDLED PROPERLY.
+
+*If your profile corrupts, clear your cache and redownload it. 
+* Use this plugin for now. It works fine https://github.com/XeCrippy/XSolaceUnlocker
 
 Information:
 * Uses a plugin to expose XUserWriteAchievements and XUserAwardAvatarAssets because I haven't been able to reverse it in c#
