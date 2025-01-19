@@ -8,3 +8,7 @@ Information:
 * This one does not search memory for the game specific function like the previous version
 
   <a href="https://gyazo.com/c5c4e8ab599a3f254ff80cf9f26f199c"><img src="https://i.gyazo.com/c5c4e8ab599a3f254ff80cf9f26f199c.png" alt="Image from Gyazo" width="277"/></a>
+
+  # Coming Soon...
+
+ <a href="https://gyazo.com/679ef3808088c4cf34b97f9d8e05e80f"><img src="https://i.gyazo.com/679ef3808088c4cf34b97f9d8e05e80f.gif" alt="Image from Gyazo" width="1918"/></a>
